@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Brainrot Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0e0e0e;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 260px;
+  background: #181818;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.buy {
+  display: block;
+  text-align: center;
+  background: #ff5f5f;
+  color: black;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.buy:hover {
+  background: #ff8080;
+}
+
+.form {
+  margin-top: 40px;
+  background: #181818;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background: #29abe0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🧠 BRAINROT SHOP</h1>
+<p class="subtitle">Buy brainrot. Lose intelligence.</p>
+
+<h2>🛒 Products</h2>
+
+<div class="products">
+
+  <div class="card">
+    <h3>🧠 Brainrot Lite</h3>
+    <p class="price">£1</p>
+    <ul>
+      <li>1 cursed image</li>
+      <li>1 dumb phrase</li>
+    </ul>
+    <a class="buy" href="https://ko-fi.com/YOURNAME" target="_blank">
+      Buy Now
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>🧠🧠 Brainrot Plus</h3>
+    <p class="price">£3</p>
+    <ul>
+      <li>3 cursed images</li>
+      <li>1 video</li>
+      <li>Bonus meme</li>
+    </ul>
+    <a class="buy" href="https://ko-fi.com/YOURNAME" target="_blank">
+      Buy Now
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>🧠🧠🧠 MAX BRAINROT</h3>
+    <p class="price">£5</p>
+    <ul>
+      <li>Everything above</li>
+      <li>Custom request</li>
+      <li>Fast delivery</li>
+    </ul>
+    <a class="buy" href="https://ko-fi.com/YOURNAME" target="_blank">
+      Buy Now
+    </a>
+  </div>
+
+</div>
+
+<div class="form">
+<h2>📦 After Payment</h2>
+<p style="color:#aaa">
+After paying, fill this form so I know what to send you.
+</p>
+
+<form action="mailto:YOUREMAIL@example.com" method="post" enctype="text/plain">
+  <input type="text" name="Name" placeholder="Your name" required>
+  <input type="email" name="Email" placeholder="Your email" required>
+  <input type="text" name="Item" placeholder="What did you buy?" required>
+  <textarea name="Notes" placeholder="Anything else?" rows="4"></textarea>
+  <button type="submit">Send</button>
+</form>
+</div>
+
+<div class="footer">
+Digital items only • Manual delivery • No refunds
+</div>
+
+</div>
+
+</body>
+</html>
